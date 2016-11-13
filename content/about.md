@@ -1,12 +1,11 @@
 Om denna sida
 ==============================================
 
-Fokusen av denna webbsida är:
+Kursen Teknisk webbdesign och användbarhet, a.k.a. design, lär webbprogrammeraren att tekniskt förbereda sin webbplats för design och användbarhet.
 
-* Att användas i kursen: [dbwebb course design](http://dbwebb.se/design).
+Kursen syftar till en orientering inom områden design och användbarhet, specifikt för tillämpningsområdet webb. Kursen har tekniken som utgångspunkt, där olika tekniker introduceras och används för att underlätta webbdesign och användbarhet för webbplatsen med syftet att skapa en korrekt och användarvänlig webbplats.
 
-Källkoden till denna sida finns på GitHub: [canax/anax-flat](git@github.com:canax/anax-flat.git).
+Denna webbsida på  [GitHub](https://github.com/Sceluswe/Design-Anax-flate-base).
 
-Denna hemsida är skapad av: [Mikael Roos](https://mikaelroos.se) (mos@dbwebb.se).
 
-Designen av denna hemsida är skapad av: [Emil Mattsson](https://github.com/Sceluswe)
+<img src="img/scheme.png" alt="Color scheme">
