@@ -37,13 +37,19 @@
   text-decoration: none;
   color: #316E01;
 }
+.flash-logo {
+  width: 1000px;
+  height: 200px;
+}
 .main.has-sidebar {
   float: left;
-  width: 67%;
+  margin-left: 12px;
+  width: 65%;
 }
 .sidebar {
   float: left;
   width: 33%;
+  margin-bottom: 48px;
 }
 /** --------------------------------------------------------------
  *  Footer
@@ -792,13 +798,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 img {
   max-width: 100%;
 }
-/*p {
-    background: black;
-}*/
 @media screen and (max-width: 900px) {
-  .flash-logo {
-    display: none;
-  }
   .site-logo-text {
     width: 40%;
   }
@@ -810,9 +810,6 @@ img {
   }
 }
 @media screen and (max-width: 750px) {
-  .flash-logo {
-    display: none;
-  }
   .sidebar {
     width: 100%;
     clear: both;
@@ -822,16 +819,13 @@ img {
   }
 }
 @media screen and (max-width: 700px) {
-  .main {
-    padding: 24px;
-    width: 80%;
-  }
+  .main,
   .main.has-sidebar {
     padding: 24px;
     width: 80%;
   }
   .flash-logo {
-    display: none;
+    width: 700px;
   }
   .footer-column {
     width: 100%;
@@ -846,13 +840,23 @@ img {
     display: block;
     list-style: none;
   }
-}
-@media screen and (max-width: 560px) {
+  .navbar2 {
+    display: none;
+  }
   .site-logo-text {
     width: 90%;
   }
-  .navbar2 {
-    display: none;
+}
+@media screen and (max-width: 560px) {
+  .flash-logo {
+    width: 560px;
+    height: 70%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .flash-logo {
+    width: 360px;
+    height: 50%;
   }
 }
 /** --------------------------------------------------------------
@@ -896,10 +900,6 @@ a:visisted {
 }
 .site-logo-text-icon img {
   vertical-align: bottom;
-}
-.flash-logo {
-  width: 1000px;
-  height: 300px;
 }
 /** --------------------------------------------------------------
  *  Breadcrumbs
