@@ -10,9 +10,16 @@ return [
         // Use for styling the menu
         "wrapper" => null,
         "class" => "rm-default rm-desktop",
-     
+
         // Here comes the menu structure
         "items" => [
+
+            "home" => [
+                "text"  => t("Home"),
+                "url"   => $this->di->get("url")->create(""),
+                "title" => t("Homepage"),
+                "mark-if-parent" => true,
+            ],
 
             "report" => [
                 "text"  => t("Report"),
@@ -31,7 +38,6 @@ return [
 
 
 
-/*
     // Used as menu together with responsive menu
     // Name of this menu
     "navbarMax" => [
@@ -39,9 +45,16 @@ return [
         "id" => "rm-menu",
         "wrapper" => null,
         "class" => "rm-default rm-mobile",
-     
+
         // Here comes the menu structure
         "items" => [
+
+            "home" => [
+                "text"  => t("Home"),
+                "url"   => $this->di->get("url")->create(""),
+                "title" => t("Homepage"),
+                "mark-if-parent" => true,
+            ],
 
             "report" => [
                 "text"  => t("Report"),
@@ -57,7 +70,7 @@ return [
             ],
         ],
     ],
-*/
+
 
 
     /**

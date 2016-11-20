@@ -1,6 +1,6 @@
 ####Anax Flat
 
-För att bygga hemsidor baserade på markup dokument och config filer i YAML.
+Bygg hemsidor med markup dokument och config filer:
 
 * [Anax-flat intro på dbwebb](http://dbwebb.se/kunskap/bygg-me-sida-med-anax-flat)
 
