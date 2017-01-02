@@ -2,6 +2,24 @@ History
 ===================================
 
 
+v1.2.19 (2016-11-28)
+-----------------------------------
+
+* Fix `wrapElementContentWithStartEnd()` produced stray `</a>`.
+
+
+v1.2.18 (2016-11-24)
+-----------------------------------
+
+* Shortcode FIGURE, figcaption is now optional.
+
+
+v1.2.17 (2016-11-14)
+-----------------------------------
+
+* Enable optional backlink to document source in revision history.
+
+
 v1.2.16 (2016-10-31)
 -----------------------------------
 

@@ -21,8 +21,15 @@ return [
             "favicon"       => "img/favicon/favicon_256x256.png",
 
             // Style and stylesheets
+
             //"stylesheets" => ["css/default.min.css"],
-            "stylesheets" => ["css/style.min.css", "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"],
+            "stylesheets" => ["css/base.min.css"],
+            "stylesheets" => ["css/light.min.css"],
+            "stylesheets" => ["css/color.min.css"],
+            "stylesheets" => ["css/dark.min.css"],
+            "stylesheets" => ["css/colorful.min.css"],
+            "stylesheets" => ["css/style.min.css"],
+            "stylesheets" => ["css/typography.min.css"],
             "styleInline" => null,
 
             // JavaScript

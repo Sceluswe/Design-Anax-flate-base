@@ -1,56 +1,5 @@
 [
     {
-        "name": "symfony/yaml",
-        "version": "v3.1.6",
-        "version_normalized": "3.1.6.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/yaml.git",
-            "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/yaml/zipball/7ff51b06c6c3d5cc6686df69004a42c69df09e27",
-            "reference": "7ff51b06c6c3d5cc6686df69004a42c69df09e27",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.5.9"
-        },
-        "time": "2016-10-24 18:41:13",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.1-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Yaml\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Yaml Component",
-        "homepage": "https://symfony.com"
-    },
-    {
         "name": "mos/cimage",
         "version": "v0.7.18",
         "version_normalized": "0.7.18.0",
@@ -303,18 +252,75 @@
         ]
     },
     {
-        "name": "mos/ctextfilter",
-        "version": "v1.2.16",
-        "version_normalized": "1.2.16.0",
+        "name": "symfony/yaml",
+        "version": "v3.2.0",
+        "version_normalized": "3.2.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/mosbth/ctextfilter.git",
-            "reference": "4c5b2bd3f76798665e2dc7207281cb4882098692"
+            "url": "https://github.com/symfony/yaml.git",
+            "reference": "f2300ba8fbb002c028710b92e1906e7457410693"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/mosbth/ctextfilter/zipball/4c5b2bd3f76798665e2dc7207281cb4882098692",
-            "reference": "4c5b2bd3f76798665e2dc7207281cb4882098692",
+            "url": "https://api.github.com/repos/symfony/yaml/zipball/f2300ba8fbb002c028710b92e1906e7457410693",
+            "reference": "f2300ba8fbb002c028710b92e1906e7457410693",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "require-dev": {
+            "symfony/console": "~2.8|~3.0"
+        },
+        "suggest": {
+            "symfony/console": "For validating YAML files using the lint command"
+        },
+        "time": "2016-11-18 21:17:59",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Yaml\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Yaml Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "mos/ctextfilter",
+        "version": "v1.2.19",
+        "version_normalized": "1.2.19.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mosbth/ctextfilter.git",
+            "reference": "39af7891a10eed403ab503572b9d464d1a182fae"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mosbth/ctextfilter/zipball/39af7891a10eed403ab503572b9d464d1a182fae",
+            "reference": "39af7891a10eed403ab503572b9d464d1a182fae",
             "shasum": ""
         },
         "require": {
@@ -330,7 +336,7 @@
             "mustangostang/spyc": "^0.6",
             "symfony/yaml": "^3.1"
         },
-        "time": "2016-10-31 12:22:27",
+        "time": "2016-11-28 14:53:40",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -369,23 +375,23 @@
     },
     {
         "name": "mos/anax",
-        "version": "v2.5.20",
-        "version_normalized": "2.5.20.0",
+        "version": "v2.5.24",
+        "version_normalized": "2.5.24.0",
         "source": {
             "type": "git",
             "url": "https://github.com/mosbth/anax.git",
-            "reference": "748128a132ef49ed743c1ddbeff8cf7c705c4e07"
+            "reference": "8f8621e77df0edacc9987591f02cbf8e7d64a74a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/mosbth/anax/zipball/748128a132ef49ed743c1ddbeff8cf7c705c4e07",
-            "reference": "748128a132ef49ed743c1ddbeff8cf7c705c4e07",
+            "url": "https://api.github.com/repos/mosbth/anax/zipball/8f8621e77df0edacc9987591f02cbf8e7d64a74a",
+            "reference": "8f8621e77df0edacc9987591f02cbf8e7d64a74a",
             "shasum": ""
         },
         "require": {
             "php": ">=5.6"
         },
-        "time": "2016-11-07 11:04:26",
+        "time": "2016-11-28 14:00:37",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -425,17 +431,17 @@
     },
     {
         "name": "mos/anax-flat",
-        "version": "v1.0.22",
-        "version_normalized": "1.0.22.0",
+        "version": "v1.0.29",
+        "version_normalized": "1.0.29.0",
         "source": {
             "type": "git",
             "url": "https://github.com/canax/anax-flat.git",
-            "reference": "d6190d212b66ac2105d0135e8f913efcca236554"
+            "reference": "069bb189cdaac9df67571f41f317993a9eb0aa7a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/canax/anax-flat/zipball/d6190d212b66ac2105d0135e8f913efcca236554",
-            "reference": "d6190d212b66ac2105d0135e8f913efcca236554",
+            "url": "https://api.github.com/repos/canax/anax-flat/zipball/069bb189cdaac9df67571f41f317993a9eb0aa7a",
+            "reference": "069bb189cdaac9df67571f41f317993a9eb0aa7a",
             "shasum": ""
         },
         "require": {
@@ -448,7 +454,7 @@
             "ext-yaml": "*",
             "mustangostang/spyc": "^0.6"
         },
-        "time": "2016-11-07 17:58:55",
+        "time": "2016-12-02 09:28:08",
         "type": "library",
         "extra": {
             "branch-alias": {

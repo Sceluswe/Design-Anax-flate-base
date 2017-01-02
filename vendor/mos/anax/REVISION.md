@@ -6,6 +6,26 @@ Revision history
 History for Anax
 -----------------------------------
 
+v2.5.24 (2016-11-28)
+
+* Add method `CRequest::hasGet()`.
+
+
+v2.5.23 (2016-11-15)
+
+* Rework CThemeEngine to configure theme selector.
+
+
+v2.5.22 (2016-11-14)
+
+* Add backlink to content source in revision history.
+
+
+v2.5.21 (2016-11-14)
+
+* Correct theme engine to use added stylesheets and js.
+
+
 v2.5.20 (2016-11-07)
 
 * Cleanup debug info for urls with `!`.

@@ -46,6 +46,20 @@ return [
                 "title" => t("Typography of this website."),
                 "mark-if-parent" => true,
             ],
+
+            "analys" => [
+                "text"  => t("Analys"),
+                "url"   => $this->di->get("url")->create("analys"),
+                "title" => t("Analys."),
+                "mark-if-parent" => true,
+            ],
+
+            "theme" => [
+                "text"  => t("Tema"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Tema."),
+                "mark-if-parent" => true,
+            ],
         ],
     ],
 
@@ -92,6 +106,20 @@ return [
                 "text"  => t("Typography"),
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Typography of this website."),
+                "mark-if-parent" => true,
+            ],
+
+            "analys" => [
+                "text"  => t("Analys"),
+                "url"   => $this->di->get("url")->create("analys"),
+                "title" => t("Analys."),
+                "mark-if-parent" => true,
+            ],
+
+            "theme" => [
+                "text"  => t("Tema"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Tema."),
                 "mark-if-parent" => true,
             ],
         ],

@@ -2,6 +2,44 @@ Revision history
 =======================================
 
 
+v1.0.28 (2016-12-01)
+---------------------------------------
+
+* Fix. Spelling error in `.htaccess_wwwstudent`.
+
+
+v1.0.27 (2016-11-28)
+---------------------------------------
+
+* Add CSS classes for showing grid through query string.
+
+
+v1.0.26 (2016-11-15)
+---------------------------------------
+
+* Rewrote theme selector.
+
+
+v1.0.25 (2016-11-15)
+---------------------------------------
+
+* Adding target cimage-create to Makefile.
+* Adding rewrite-rule for cimage to htaccess samples.
+
+
+v1.0.24 (2016-11-14)
+---------------------------------------
+
+* removing stray ).
+* Fix. Theme chooser can not do a redirect as a template file.
+
+
+v1.0.23 (2016-11-14)
+---------------------------------------
+
+* Enhanced theme selector to use several classes and additional stylesheets.
+
+
 v1.0.22 (2016-11-07)
 ---------------------------------------
 
